@@ -31,8 +31,6 @@ export function EligibilityChecker() {
         <h2 className="text-3xl font-bold mb-8">{t('check.title')}</h2>
         <p className="text-gray-400 mb-8">
           {t('check.subtitle')}
-          <br />
-          <span className="text-sm text-gray-500">{t('check.simulated')}</span>
         </p>
 
         <div className="relative max-w-md mx-auto">

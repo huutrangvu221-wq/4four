@@ -21,7 +21,7 @@ const translations: Translations = {
   'hero.title.1': { en: 'The Lucky Number', zh: '幸运数字' },
   'hero.subtitle': { en: 'Hold 40,000+ tokens with a "4" in your balance to win.', zh: '持有 40,000 枚以上且数量中包含数字"4"，即可自动参与抽奖！' },
   'hero.subtitle.2': { en: 'Fair, transparent, and 100% on-chain.', zh: '智能合约自动开奖，全程透明可查，绝对公平！' },
-  'hero.buy': { en: 'Buy $LUCKY4', zh: '购买 $LUCKY4' },
+  'hero.buy': { en: 'Buy $4', zh: '购买 $4' },
   'hero.chart': { en: 'View Chart', zh: '查看K线' },
   'hero.card.win.title': { en: 'Win Big', zh: '赢得大奖' },
   'hero.card.win.desc': { en: 'Every 15 minutes, a lucky holder wins 50% of the pot.', zh: '每 15 分钟开奖一次，中奖者获得奖池 50%。' },
@@ -38,6 +38,12 @@ const translations: Translations = {
   'lottery.recent_winners': { en: 'Recent Winners', zh: '近期中奖名单' },
   'lottery.live_feed': { en: 'Live Feed', zh: '实时' },
   'lottery.mins_ago': { en: 'mins ago', zh: '分钟前' },
+  'lottery.no_winners': { en: 'No winners yet', zh: '暂无中奖记录' },
+  'lottery.waiting': { en: 'Waiting for the first lucky winner...', zh: '等待第一位幸运儿...' },
+  'lottery.how_it_works': { en: 'How it Works', zh: '抽奖机制说明' },
+  'lottery.explanation.title': { en: 'Blockchain Randomness (VRF)', zh: '链上随机数 (VRF)' },
+  'lottery.explanation.desc': { en: 'The winner is selected using Chainlink VRF (Verifiable Random Function) to ensure true randomness. The smart contract automatically executes every 15 minutes.', zh: '中奖者通过 Chainlink VRF (可验证随机函数) 选取，确保绝对随机。智能合约每 15 分钟自动执行一次。' },
+  'lottery.explanation.note': { en: 'Note: This interface simulates the contract state. Real transactions are verified on BscScan.', zh: '注：此界面展示合约状态。真实交易可在 BscScan 上验证。' },
 
   // Rules
   'rules.title': { en: 'Tokenomics & Rules', zh: '代币经济与规则' },
@@ -73,7 +79,7 @@ const translations: Translations = {
   'footer.audit': { en: 'Audit Report', zh: '审计报告' },
   'footer.whitepaper': { en: 'Whitepaper', zh: '白皮书' },
   'footer.community': { en: 'Community', zh: '社区' },
-  'footer.rights': { en: 'Lucky 4 Token. All rights reserved.', zh: 'Lucky 4 Token. 版权所有。' },
+  'footer.rights': { en: '4 Token. All rights reserved.', zh: '4 Token. 版权所有。' },
   'footer.risk': { en: 'Cryptocurrency investments are subject to high market risk. Please invest cautiously.', zh: '加密货币投资具有高市场风险，请谨慎投资。' },
 };
 

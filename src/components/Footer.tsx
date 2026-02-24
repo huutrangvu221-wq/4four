@@ -10,9 +10,9 @@ export function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
           <div>
             <div className="mb-4 flex items-center gap-2">
-              <img src="/logo.svg" alt="Lucky 4 Logo" className="h-12 w-auto" />
-              <span className="text-2xl font-bold font-mono text-lucky-green">
-                LUCKY<span className="text-white">4</span>
+              <img src="/logo.svg" alt="4 Token Logo" className="h-12 w-auto" />
+              <span className="text-2xl font-bold font-mono text-white">
+                4
               </span>
             </div>
             <p className="text-gray-400 text-sm max-w-xs whitespace-pre-line">

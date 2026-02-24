@@ -21,9 +21,9 @@ export function Navbar() {
               animate={{ rotate: 0 }}
               className="flex items-center gap-2"
             >
-              <img src="/logo.svg" alt="Lucky 4 Logo" className="h-10 w-auto" />
-              <span className="text-2xl font-bold font-mono text-lucky-green hidden sm:block">
-                LUCKY<span className="text-white">4</span>
+              <img src="/logo.svg" alt="4 Token Logo" className="h-10 w-auto" />
+              <span className="text-2xl font-bold font-mono text-white hidden sm:block">
+                4
               </span>
             </motion.div>
           </div>
@@ -40,11 +40,6 @@ export function Navbar() {
                 title="Switch Language"
               >
                 <Globe size={20} />
-              </button>
-
-              <button className="bg-lucky-green text-black font-bold px-4 py-2 rounded-lg hover:bg-lucky-green/90 transition-colors flex items-center gap-2">
-                <Wallet size={18} />
-                {t('nav.connect')}
               </button>
             </div>
           </div>
@@ -72,10 +67,6 @@ export function Navbar() {
             <a href="#lottery" className="text-gray-300 hover:text-white block px-3 py-2 rounded-md text-base font-medium">{t('nav.lottery')}</a>
             <a href="#rules" className="text-gray-300 hover:text-white block px-3 py-2 rounded-md text-base font-medium">{t('nav.rules')}</a>
             <a href="#check" className="text-gray-300 hover:text-white block px-3 py-2 rounded-md text-base font-medium">{t('nav.check')}</a>
-            <button className="w-full text-left bg-lucky-green text-black font-bold px-3 py-2 rounded-lg mt-4 flex items-center gap-2">
-              <Wallet size={18} />
-              {t('nav.connect')}
-            </button>
           </div>
         </div>
       )}
